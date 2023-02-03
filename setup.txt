@@ -1,0 +1,20 @@
+host=localhost
+user=root
+password=duagon
+database=user_ids
+tables:
+bg_id=bg_id
+	bg_name=bg_name
+	identifier=identifier
+	tag_uid=tag_uid
+	borrowed=borrowed
+link=link
+	bg__id=bg__id
+	name__id=name__id
+	date=date
+name_id=name_id
+	first_name=first_name
+	last_name=last_name
+	user_uid=user_uid
+	
+path=/home/duagon/bbt
