@@ -132,7 +132,7 @@ while True:
     sleep(30)
     t = time.localtime()
     zeit= str(t.tm_hour)+str(t.tm_min)
-    datum= str(t.tm_year)+"_"+str(t.tm_mday)+"-"+str(t.tm_mon)
+    datum= str(t.tm_year)+"_"+str(t.tm_mon)+"-"+str(t.tm_mday)
     val=int(zeit)
     #print("mysqldump -u %s --password='%s' --databases='%s' > %s/backup/backup_%s.sql" %(sql_user,sql_password,sql_database,path,datum))
     if (val==0):
